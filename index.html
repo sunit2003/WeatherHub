@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWeatherWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Tektur&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="weatherapp">
+        <h2 class="name">Weather Hub</h2> 
+        <div class="search">
+          <input type="text" placeholder="Enter city name" spellcheck="false">
+           <button><img src="search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+    <div class="weather">
+        <img src="" class="weathericon">
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+        <div class="details">
+            <div class="col">
+                <img src="humidity.png">
+                <div>
+                    <p class="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="wind.png">
+                <div>
+                    <p class="wind"></p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+  </div>  
+ <script src="script.js"></script>
+</body>
+</html>
